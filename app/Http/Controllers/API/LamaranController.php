@@ -13,8 +13,6 @@ class LamaranController extends ApiController
 {
     public function apply(Request $request)
     {
-        // return $this->responseSuccess('asd', 'asd');
-
 
         try {
             $validate = Validator::make($request->all(), [
